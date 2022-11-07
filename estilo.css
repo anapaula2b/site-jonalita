@@ -6,19 +6,29 @@ body {
     display: flex;
     flex-direction: row;
     gap: 5%;
-
-    
 }
+
 
 .img-logo{
-width: 20%;
-margin: 2%;
+width: 40%;
+margin: 0%;
+
 }
 
+.img_menu {
+    width: 70%;
+}
 .logo {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 0;
+}
+
+.item-data {
+    margin: 0;
+    font-size: small;
 }
 
 main {
