@@ -18,6 +18,10 @@ margin: 0%;
 .img_menu {
     width: 70%;
 }
+.img_tirinha {
+    width: 45%;
+    margin: 0%;
+}
 .logo {
     display: flex;
     align-items: flex-end;
@@ -30,6 +34,9 @@ margin: 0%;
     margin: 0;
     font-size: small;
 }
+.img_in_3d{
+    height: 10%;
+}
 
 main {
     display: flex;
@@ -40,9 +47,32 @@ main {
 hr {
     margin: 1%;
 }
-
-.text {
+section{
     margin-inline: 2% ;
+}
+.text_lit {
+    text-align: justify;
+    width: 80%;
+    font-size: large;
+}
+.sec_one {
+    display: flex;
+    flex-direction: column;
+}
+.sec_two {
+    text-align: justify;
+    font-size: large;
+    width: 50%;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: row;
+}
+
+.text1 {
+    margin-inline: 2% ;
+    width: 50%;
 }
 .slider{
     overflow: hidden;
