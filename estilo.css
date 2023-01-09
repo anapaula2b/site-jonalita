@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 body {
     background-color: #E9E4D4;
 }
@@ -8,11 +11,26 @@ body {
     gap: 5%;
 }
 
-
+p {
+    text-align: justify;
+    margin: 2%;
+    font-family: 'Josefin Slab', serif;
+    font-size: larger;
+}
+h1 {
+    font-family: 'Philosopher', sans-serif;
+}
+img {
+    margin: 2%;  
+}
 .img-logo{
-width: 40%;
+width: 45%;
 margin: 0%;
 
+}
+
+.img {
+    width: 30%;
 }
 
 .img_menu {
@@ -39,9 +57,12 @@ margin: 0%;
 }
 
 main {
+
+    padding: 2%;
+}
+.divisao {
     display: flex;
     justify-content: space-around;
-    padding: 2%;
 
 }
 hr {
@@ -58,6 +79,7 @@ section{
 .sec_one {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 .sec_two {
     text-align: justify;
